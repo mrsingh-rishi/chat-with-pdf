@@ -27,9 +27,11 @@ const Navbar = () => {
                 Sign in
               </LoginLink>
               <RegisterLink
-                className={buttonVariants({ variant: "ghost", size: "sm" })}
+                className={buttonVariants({
+                  size: "sm",
+                })}
               >
-                Get started <ArrowRight className="ml-1.5 h- w-5" />
+                Get started <ArrowRight className="ml-1.5 h-5 w-5" />
               </RegisterLink>
             </>
           </div>
